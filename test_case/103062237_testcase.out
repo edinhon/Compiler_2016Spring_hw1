@@ -1,0 +1,33 @@
+1://This is the test case of 103062237 
+2:
+#key:int
+#id:main
+#punc:(
+#punc:)
+#punc:{
+3:int main(){
+4:	
+#key:int
+#id:i
+#op:=
+#integer:0
+#punc:;
+5:	/*Hi I am a comment*/int i = 0;/*Hi I am a comment, too*/
+#key:int
+#id:a
+#op:=
+#id:b
+#punc:;
+6:	int a = /*Hi I am a comment, three*/b;
+#key:double
+#id:c
+#id:d
+#punc:;
+7:	double c/*Hi I am a comment, four*/d;
+#id:string
+#id:only_change_line
+#op:=
+#string:\n
+#punc:;
+8:	string only_change_line = "\n";
+9:	/*Next line is a string error by "\n */
